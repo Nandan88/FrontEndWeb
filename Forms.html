@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>Html Forms</h2>
+    <form action="backend.php">
+        <div>
+            <label for="name">Name</label>
+            <!-- Name: <input type="text" id="name"> -->
+            <input type="text" id="name">
+        </div>
+        <div>
+            College: <input type="text">
+        </div>
+        <div>
+            Email: <input type="email" name="myemail">
+        </div>
+        <div>
+            Date Time<input type="datetime-local" name="date" >
+            Date<input type="date" name="date">
+        </div>
+        <div>
+            Eligiblity: <input type="checkbox" name="myElgibl" id="">
+        </div>
+        <div>
+            Gender: Male<input type="radio" name="myGender"> Female<input type="radio" name="myGender"> Other<input type="radio" name="myGender">
+        </div>
+        <div>
+            <label for="car">Car </label>
+            <select name="myCar" id="car">
+                <option id="car">Audi</option>
+                <option value="fort" id="car" selected>Fortuner</option>
+            </select>
+        </div>
+        <div>
+            Write anything about yourself: <br> <textarea name=""  cols="1" rows="1"></textarea>
+        </div>
+        <!-- <div>
+            <input type="button" value="Submit">
+        </div> -->
+        <div>
+            <input type="submit" value="Submit Here">
+            <input type="reset" value="Reset Here">
+        </div>
+    </form>
+</body>
+</html>
